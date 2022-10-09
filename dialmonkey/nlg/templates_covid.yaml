@@ -1,0 +1,91 @@
+"ProvideDeaths(type={type},return_value={return_value})":
+- '{type} zemřelo na COVID-19 {return_value} osob.'
+- '{type} podlehlo nemoci {return_value} osob.'
+- '{type} činí počet zemřelých {return_value}.'
+
+"ProvideActiveCases(type={type},return_value={return_value})":
+- '{type} evidujeme {return_value} aktivních případů nemoci COVID-19.'
+- '{type} bylo {return_value} aktivních případů.'
+- '{type} jsme zaznamenali {return_value} aktivních případů onemocnění.'
+
+"ProvideTotalTestsPerformed(type=positiveshare,return_value={return_value})":
+- 'Pozitivní testy tvořily {return_value}% objemu.'
+- 'Podíl pozitivních testů byl {return_value}%.'
+
+"ProvidePcrTestsPerformed(type=positiveshare,return_value={return_value})":
+- 'Pozitivní PCR testy tvořily {return_value}% objemu.'
+- 'Podíl pozitivních PCR testů byl {return_value}%.'
+
+"ProvideAgTestsPerformed(type=positiveshare,return_value={return_value})":
+- 'Pozitivní antigenní testy tvořily {return_value}% objemu.'
+- 'Podíl pozitivních antigenních testů byl {return_value}%.'
+
+"ProvideTotalTestsPerformed(type={type},return_value={return_value})":
+- '{type} evidujeme {return_value} celkových provedených testů.'
+- '{type} bylo provedeno {return_value} testů.'
+- '{type} se vydalo {return_value} všech typů testů.'
+
+"ProvidePcrTestsPerformed(type={type},return_value={return_value})":
+- '{type} evidujeme {return_value} provedených PCR testů.'
+- '{type} bylo provedeno {return_value} PCR testů.'
+- '{type} se vydalo {return_value} PCR testů.'
+
+"ProvideAgTestsPerformed(type={type},return_value={return_value})":
+- '{type} evidujeme {return_value} provedených antigenních testů.'
+- '{type} bylo provedeno {return_value} antigenních testů.'
+- '{type} se vydalo {return_value} antigenních testů.'
+
+"ProvideVaccinated(type={type},return_value={return_value})":
+- '{type} bylo naočkováno {return_value} osob.'
+- '{type} evidujeme {return_value} naočkovaných osob.'
+
+"ProvideVaccinations(type=lastweekgrowth,return_value={return_value})":
+- 'Nárůst vakcinací za poslední týden činí {return_value}%.'
+
+"ProvideVaccinations(type={type},return_value={return_value})":
+- '{type} bylo vydáno {return_value} vakcín.'
+- '{type} evidujeme {return_value} vydaných vakcín.'
+
+"ProvideInfected(type={type},return_value={return_value})":
+- '{type} evidujeme {return_value} infikovaných.'
+- '{type} bylo infikováno {return_value} osob.'
+
+"ProvideForeignInfected(type=lastweekgrowth,return_value={return_value})":
+- 'Týdenní nárůst infikovaných osob ze zahraničí činí {return_value}%.'
+
+"ProvideForeignInfected(type={type},return_value={return_value})":
+- '{type} přišlo ze zahraničí {return_value} infikovaných osob.'
+- '{type} evidujeme {return_value} infikovaných osob, jenž přišlo ze zahraničí.'
+
+"ProvideCovidPoints(address={address},locations={locations})":
+- 'Poblíž adresy {address} můžete navštívit následující odběrová místa: {locations}'
+- 'Na adrese {address} se nacházejí tato odběrová místa: {locations}'
+
+"ProvideHighCapacityCovidPoints(address={address},locations={locations})":
+- 'Na adrese {address} mají největší kapacitu následující odběrová místa: {locations}'
+- 'Odběrová místa s největší kapacitou nacházející se poblíž adresy {address} jsou následující: {locations}'
+
+"Goodbye()":
+- 'Na shledanou a přeji pěkný den.'
+- 'Na viděnou, užijte si zbytek dne.'
+- 'Mějte se hezky, na shledanou.'
+- 'Na shledanou.'
+
+"Greet()":
+- 'Dobrý den.'
+- 'Zdravím.'
+- 'Vítejte.'
+
+"AskType()":
+- 'Jaký typ dat Vás zajímá? K dispozici máme celková číslo, hodnoty za včerejšek a nárůsty.'
+- 'Zajímá Vás celkové číslo za poslední rok, včerejšek, nebo nárůst za poslední týden?'
+- 'O jaký typ dat se jedná?'
+
+"AskAddress()":
+- 'Na jaké adrese se mají místa nacházet?'
+- 'Poblíž jaké adresy chcete místa navštívit?'
+
+"AskIntent()":
+- 'Jaká čísla by Vás v souvislosti s nemocí COVID-19 v České republice zajímala? K dispozici máme například počty úmrtí, aktivních případů, testů, vakcinací, infikovaných či seznamy očkovacích míst.'
+- 'Jak Vám v souvislosti s nemocí COVID-19 můžeme poradit? K dispozici máme například počty úmrtí, aktivních případů, testů, vakcinací, infikovaných či seznamy očkovacích míst.'
+- 'S čím Vám ještě můžeme poradit? K dispozici máme například počty úmrtí, aktivních případů, testů, vakcinací, infikovaných či seznamy očkovacích míst.'

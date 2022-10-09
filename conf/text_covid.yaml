@@ -1,0 +1,12 @@
+logging_level: "DEBUG"  # not strictly required
+user_stream: "dialmonkey.input.text.ConsoleInput"  # not strictly required
+output_stream: "dialmonkey.output.text.ConsoleOutput"  # not strictly required
+components:
+  - "dialmonkey.nlu.rule_covid.CovidNLU"
+  - "dialmonkey.dst.rule.ProbabilisticDST"
+  - "dialmonkey.policy.rule_covid.CovidPolicy"
+  - "dialmonkey.nlg.templates_covid.CovidNLG":
+      templates_file: dialmonkey/nlg/templates_covid.yaml
+break_words:
+  - "quit"
+  - "exit"

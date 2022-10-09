@@ -1,0 +1,11 @@
+pyyaml
+cloudpickle
+scikit-learn
+unidecode
+regex
+scipy
+requests
+tqdm
+logzero
+nltk
+python-telegram-bot
