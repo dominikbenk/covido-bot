@@ -3,7 +3,7 @@ This is a school project that has been built on [dialmonkey framework](https://u
 
 The domain maps the development of the pandemic situation in the Czech Republic. In addition to basic characteristics related to the spread of the disease, the API also offers detailed data on testing, vaccination and intensive care capacities.
 
-The purpose of the chatbot is to make this information easily accessible through a dialogue system that ensures that the data is up-to-date. The datasets are freely available on the website of the [Ministry of Health of the Czech Republic](https://onemocneni-aktualne.mzcr.cz/api/v2/covid-19). .
+The purpose of the chatbot is to make this information easily accessible through a dialogue system that ensures that the data is up-to-date. The datasets are freely available on the website of the [Ministry of Health of the Czech Republic](https://onemocneni-aktualne.mzcr.cz/api/v2/covid-19).
 
 The chatbot itself then runs on Telegram.
 
